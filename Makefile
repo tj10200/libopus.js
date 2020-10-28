@@ -32,4 +32,4 @@ $(LIBOPUS_JS): $(LIBOPUS_OBJ) $(POST_JS)
 	# So, there is a bug in static-module (used by brfs) which causes it to fail
 	# when trying to parse our generated output for the require('fs') calls
 	# Because we won't be using the file system anyway, we monkey patch that call
-	sed -i'' 's/require("fs")/null/g' $(LIBOPUS_JS)
+	sed -i'' -e 's/require("fs")/null/g' $(LIBOPUS_JS)
