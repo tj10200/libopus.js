@@ -1,11 +1,12 @@
 {
-  "name": "libopus.js",
+  "name": "tj10200/libopus.js",
   "version": "0.0.1",
-  "description": "libopus compiled to JavaScript using emscripten",
-  "homepage": "https://github.com/johni0702/libopus.js",
-  "author": "Jonas Herzig <me@johni0702.de>",
+  "description": "fork of johni0702/libopus.js. contains libopus compiled to JavaScript using emscripten",
+  "homepage": "https://github.com/tj10200/libopus.js",
+  "author": "TJ Johnson <tjjohnson10200@gmail.com>",
   "contributors": [
-    "Chris Rudmin"
+    "Chris Rudmin",
+    "TJ Johnson"
   ],
   "keywords": [
     "libopus",
@@ -20,11 +21,11 @@
   "files": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/johni0702/libopus.js.git"
+    "url": "git://github.com/tj10200/libopus.js.git"
   },
   "bugs": {
-    "url": "https://github.com/johni0702/libopus.js/issues",
-    "email": "me@johni0702.de"
+    "url": "https://github.com/tj10200/libopus.js/issues",
+    "email": "tjjohnson10200@gmail.com"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha"
@@ -33,8 +34,10 @@
     "index.js",
     "lib/encoder.js",
     "lib/decoder.js",
+    "lib/reencoder.js",
     "lib/utils.js",
-    "build/libopus.js"
+    "build/libopus.js",
+    "build/libopus.wasm"
   ],
   "devDependencies": {
     "chai": "^3.5.0",
