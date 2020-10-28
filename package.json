@@ -1,5 +1,5 @@
 {
-  "name": "tj10200/libopus.js",
+  "name": "libopusutils",
   "version": "0.0.1",
   "description": "fork of johni0702/libopus.js. contains libopus compiled to JavaScript using emscripten",
   "homepage": "https://github.com/tj10200/libopus.js",
