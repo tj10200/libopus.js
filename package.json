@@ -1,6 +1,6 @@
 {
   "name": "libopusutils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "fork of johni0702/libopus.js. contains libopus compiled to JavaScript using emscripten",
   "homepage": "https://github.com/tj10200/libopus.js",
   "author": "TJ Johnson <tjjohnson10200@gmail.com>",
